@@ -44,11 +44,11 @@ function getWeatherCity(weather) {
             break;
 
         case 'Clouds':
-            info.style.backgroundImage = "url('https://pngicon.ru/file/uploads/oblaka.png')";
+            info.style.backgroundImage = "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0ohpRHNnuufuXeFiKCqoiPHWENAiDiAhip6x5ZKkOjOQ8iCJdpjVWNMltAcIZZWUVtjU&usqp=CAU')";
             break;
 
         case 'Clear':
-            info.style.backgroundImage = "url('https://cdn-icons-png.flaticon.com/512/5538/5538410.png')";
+            info.style.backgroundImage = "url('https://cdn-icons-png.flaticon.com/512/6198/6198743.png')";
             break;
 
         case 'Snow':

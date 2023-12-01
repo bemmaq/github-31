@@ -21,19 +21,6 @@ btn.onclick = () => {
     getWeather(input.value);
 };
 
-// function showCity(obj) {
-//     info.innerHTML = '';
-//     info.innerHTML = `
-//     <h1>${obj.name}</h1>
-//     <h4>Temperature:${Math.round(obj.main.temp - 273.15)}°C</h4>
-//     <h4>${obj.weather[0].description}</h4>
-//     <img src='${imgurl + obj.weather[0].icon}@2x.png'/>
-//     <h3>Humidity:${obj.main.humidity}</h3>
-//     <h3>Wind:${obj.wind.speed}</h3>
-//     <h4> Cloudy:${obj.clouds.all}</h4>
-//     `;
-//     getWeatherCity(obj.weather[0].main);
-// }
 
 function showCity(obj) {
     info.innerHTML = '';
@@ -46,7 +33,7 @@ function showCity(obj) {
     <h3>Wind:${obj.wind.speed}</h3>
     <h4> Cloudy:${obj.clouds.all}</h4>
     `;
-    // getWeatherCity(obj.weather[0].main);
+    
 }
 
 

@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #583232;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+section{
+    text-align: center;
+}
+button{
+    width: 80px;
+    height: 30px;
+    margin-top: 20px;
+    background-color: red;
+    color: white;
+    border-color: transparent;
+    border-radius: 8px;
+}
+ol{
+    margin-top: 20px;
+}

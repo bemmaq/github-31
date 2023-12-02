@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+section{
+    background-color: #583232;
+    color: white;
+    padding-top: 20px;
+}
+.cards{
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 2px solid white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    
+
+}
+.card{
+    width: 22%;
+    text-align: center;
+    padding-top: 60px;
+
+}
+.card img{
+    max-width: 100%;
+}
+.card:hover{
+    color: yellow;
+
+}
+#all,#Random,#Search{
+    padding: 2px ;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    border-color: transparent;
+
+}
+#Search{
+    padding: 5px ;
+    border-radius: 5px;
+    background-color:wheat;
+    color: black;
+    border-color: transparent;
+}
+.btns{
+    text-align: center;
+}
+.tamga {
+    padding-top: 50px;
+}
+
+h1{
+    color: #e8afaf;
+}

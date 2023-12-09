@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <main class="container">
+        <section class="ui">
+            <div class="container-left">
+                <form id="credit-card">
+                    <div class="number-container">
+                        <label >Card Number</label>
+                        <input type="text" name="card-number" id="card-number" maxlength="19" placeholder="1234 5678 9101 1112" required onkeypress="return event.charCode >= 48 && event.charCode <=57">
+
+                    </div>
+                    <div class="name-container">
+                        <label >Holder</label>
+                        <input type="text" name="name-text" id="name-text" maxlength="30" placeholder="NOAH JACOB" required >
+
+
+                    </div>
+                    <div class="infos-container">
+                        <div class="expiration-container">
+                            <label >Valid-thru</label>
+                            <input type="text" name="Valid-thru-text" id="Valid-thru-text" maxlength="5" placeholder="02/40" required>
+    
+    
+                        </div>
+                        <div class="cvv-container">
+                            <label >CVV</label>
+                            <input type="text" name="cvv-text" id="cvv-text" maxlength="4" placeholder="1234" required>
+    
+    
+                        </div>
+
+                    </div>
+                    <input type="submit" value="ADD" id="add">
+                </form>
+               <div class="container-right">
+                <div class="card">
+                    <div class="intern">
+                        <img class="aproxmimation" src="data:image/png;base64,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" alt="aproxmimation" width="20px">
+                        <div class="card-number">
+                            <div class="number-vl">1234 5678 9101</div>
+                        </div>
+                        <div class="card-holder">
+                            <label >Holder</label>
+                            <div class="name-vl">NOAH JACOB</div>
+                        </div>
+                        <div class="card-infos">
+                            <div class="exp">
+                                <label >Valid-thru</label>
+                            <div class="expiration-vl">02/40</div>
+                            </div>
+                            <div class="cvv">
+                                <label >CVV</label>
+                                <div class="cvv-vl">123</div>
+                            </div>
+                        </div>
+                        <img class="chip"  src="https://cdn-icons-png.flaticon.com/512/7339/7339636.png" alt="chip">
+                    </div>
+                </div>
+
+               </div>
+                
+            </div>
+        </section>
+    </main>
+
+    <script src="/app.js"></script>
+</body>
+</html>

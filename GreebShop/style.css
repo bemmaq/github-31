@@ -1,0 +1,202 @@
+@font-face {
+  font-family: "CeraPro-Regular";
+  src: local("/fonts/Cera Pro Regular"), local("/fonts/CeraPro-Regular"),
+    url("/fonts/CeraPro-Regular.woff") format("woff"),
+    url("/fonts/CeraPro-Regular.woff2") format("woff2"),
+    url("/fonts/CeraPro-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "CeraPro-Regular";
+}
+
+.container {
+  width: 1300px;
+  height: 7000px;
+  border: 1px solid black;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ull {
+  margin-left: 40px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 10px;
+}
+
+h2 {
+  padding: 15px;
+}
+
+.vector {
+  display: flex;
+  gap: 10px;
+}
+
+.vector button {
+  background: #46a358;
+  color: azure;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.greenShop {
+  display: flex;
+  /* justify-content: space-between ; */
+}
+
+.green {
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+}
+.search-img {
+  width: 404px;
+  height: 404px;
+  flex-shrink: 0;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  mix-blend-mode: multiply;
+  margin-left: 100px;
+}
+
+.img-p {
+  position: absolute;
+  left: 610px;
+  bottom: 570px;
+}
+.svg-1 {
+  display: flex;
+  gap: 5px;
+  padding: 20px;
+}
+
+.text-1 {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+.text-1 h1 {
+  color: #46a358;
+  padding: 10px;
+  right: 0;
+}
+
+.contoiner {
+  width: 900px;
+}
+.size-text {
+  padding-top: 20px;
+}
+
+.svg-4 img {
+  border-radius: 50%;
+  border: 1px solid rgb(103, 103, 101);
+  padding: 10px;
+}
+.now {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 1rem;
+}
+
+.now h3 {
+  width: 130px;
+  height: 40px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 6px;
+  background: #46a358;
+  color: white;
+}
+.now p {
+  width: 130px;
+  height: 40px;
+  padding: 6px;
+  text-align: center;
+
+  border-radius: 6px;
+  border: 2px solid #46a358;
+  color: #46a358;
+}
+
+.vector-img {
+  margin: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 6px;
+  padding: 10px;
+  border: 1px solid #46a358;
+}
+.sru {
+  padding-top: 20px;
+}
+.sru-1 {
+  display: flex;
+  gap: 1rem;
+}
+.product {
+  display: flex;
+  gap: 1rem;
+  /* padding-top: 120px; */
+  line-height: 100%;
+}
+#pD {
+  color: #46a358;
+  border-bottom: 1px solid green;
+  padding-bottom: 6px;
+}
+.section {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.bema_q-shop {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.bema_q {
+  width: 250px;
+  height: 350px;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.text-text {
+  color: #727272;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.Releted {
+  padding-top: 100px;
+}
+.rel {
+  color: #46a358;
+}
